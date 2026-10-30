@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Pipelines | Boyu Liu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Boyu (Barry) Liu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Research Pipelines</h1>
-        <p>Experimental frameworks and nanoscale engineering assays.</p>
-    </header>
+  <!-- Fixed Top Navigation Bar -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-title">Boyu (Barry) Liu</a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="research.html" class="nav-link active">Research</a></li>
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="mailto:barryliuapp@gmail.com" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <nav style="margin: 1.5rem 0;">
-        <a href="index.html" style="margin-right: 15px;">[ Home ]</a>
-        <a href="research.html" style="margin-right: 15px; font-weight: bold;">[ Research ]</a>
-        <a href="publications.html" style="margin-right: 15px;">[ Publications ]</a>
-        <a href="skills.html">[ Skills & Stack ]</a>
-    </nav>
+  <!-- Main Research Page Container -->
+  <main class="main-container">
+    
+    <!-- Hero Header -->
+    <section class="hero-section">
+      <h1 class="hero-name">Research Focus</h1>
+      <p class="hero-subtitle">
+        Investigating nucleic acid nanotechnology, single-molecule transcription tracking, and novel sequencing methodologies at the Salk Institute for Biological Studies.
+      </p>
+    </section>
 
-    <main>
-        <h2>Salk Institute of Biological Studies (2024 - Present)</h2>
-        <div class="card" style="margin-bottom: 1.5rem;">
-            <span class="card-tag">Project Leader // Single-Molecule Tracks</span>
-            <h3>RNA Polymerase Angular Registration</h3>
-            <p>Leading a project tracking the rotational dynamics of RNA polymerase transcription as a novel sequencing methodology. Focusing heavily on registering physical angular displacement directly onto specific nucleotide coordinates. Optimized transcription elongation complex purifications 3-fold using customized streptavidin magnetic bead protocols.</p>
-        </div>
+    <!-- Section 1: Primary Research Projects -->
+    <section class="research-group">
+      <h2 class="section-title">Current & Major Projects</h2>
+      <div class="card-grid">
 
-        <div class="card" style="margin-bottom: 1.5rem;">
-            <span class="card-tag">Framework Optimization // DNAntenna</span>
-            <h3>Structural DNA Origami Platforms</h3>
-            <p>Leveraging high-speed single-molecule TIRF microscopy to track Brownian motion and physical parameters of structural dsDNA variants. Measured and fine-tuned real-time Cas9-mediated target cleavage and DNA origami structural ligations.</p>
-        </div>
+        <!-- Project 1 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge">Salk Institute</span>
+            <span class="meta-date">2024 – Present</span>
+          </div>
+          <h3 class="card-title">Single-Molecule RNA Polymerase Transcription Tracking</h3>
+          <p class="card-description">
+            Leading research into real-time tracking of RNA polymerase transcription as a potential high-resolution sequencing methodology. Focused on registering observed single-molecule angular motion with exact nucleotide positions on template DNA.
+          </p>
+          <ul class="key-points">
+            <li>Optimized purification of <em>E. coli</em> RNA Polymerase transcription elongation complexes 3-fold using streptavidin magnetic beads.</li>
+            <li>Applied pause-site and U-tract motif registration to align single-molecule ORBIT trajectories for sequence-resolved transcription.</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="tag">RNA Polymerase</span>
+            <span class="tag">Single-Molecule TIRF</span>
+            <span class="tag">Sequencing</span>
+            <span class="tag">Biophysics</span>
+          </div>
+        </article>
 
-        <h2>Prior Alignments</h2>
-        <div class="card">
-            <span class="card-tag">Bioinformatics Intern // UC Santa Cruz (2020)</span>
-            <h3>Marine Mammal Feeding Convergence</h3>
-            <p>A ten-week data analysis project assessing computational data gaps, biases, and evolutionary convergences in carnivorous marine mammal dietary datasets.</p>
-        </div>
-    </main>
+        <!-- Project 2 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge">Salk Institute</span>
+            <span class="meta-date">2023 – Present</span>
+          </div>
+          <h3 class="card-title">DNAntenna & Dynamic DNA Origami Nanotechnology</h3>
+          <p class="card-description">
+            Developed modular DNA origami platforms to make dynamic physical properties and enzymatic interactions of dsDNA directly visible under high-speed microscopy.
+          </p>
+          <ul class="key-points">
+            <li>Observed target-specific Cas9-mediated cleavage and measured intrinsic physical bending dynamics of dsDNA constructs.</li>
+            <li>Executed high-speed imaging andOxDNA coarse-grained molecular simulations to model Brownian motion.</li>
+            <li>Designed assays to measure single-strand overhang ligation efficiency for complex DNA origami assembly.</li>
+          </ul>
+          <div class="tech-stack">
+            <span class="tag">DNA Origami</span>
+            <span class="tag">Cas9 / CRISPR</span>
+            <span class="tag">OxDNA / Scadnano</span>
+            <span class="tag">TIRF Microscopy</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section 2: Bioinformatics & Past Research -->
+    <section class="research-group">
+      <h2 class="section-title">Bioinformatics & Evolutionary Research</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge">UC Santa Cruz</span>
+            <span class="meta-date">2020</span>
+          </div>
+          <h3 class="card-title">Marine Mammal Feeding Strategy Bioinformatics</h3>
+          <p class="card-description">
+            10-week summer bioinformatics research internship evaluating evolutionary convergence, methodological biases, and data gaps across carnivorous marine mammal feeding strategies.
+          </p>
+          <div class="tech-stack">
+            <span class="tag">Bioinformatics</span>
+            <span class="tag">Comparative Genomics</span>
+            <span class="tag">Python</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
