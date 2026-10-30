@@ -1,73 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications & Registry | Boyu Liu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — Boyu (Barry) Liu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Academic Registries</h1>
-        <p>Published literature, preprints, and presentation logs.</p>
-    </header>
+  <!-- Fixed Top Navigation Bar -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-title">Boyu (Barry) Liu</a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
+          <li><a href="publications.html" class="nav-link active">Publications</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="mailto:barryliuapp@gmail.com" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <nav style="margin: 1.5rem 0;">
-        <a href="index.html" style="margin-right: 15px;">[ Home ]</a>
-        <a href="research.html" style="margin-right: 15px;">[ Research ]</a>
-        <a href="publications.html" style="margin-right: 15px; font-weight: bold;">[ Publications ]</a>
-        <a href="skills.html">[ Skills & Stack ]</a>
-    </nav>
+  <!-- Main Publications Container -->
+  <main class="main-container">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-name">Publications & Talks</h1>
+      <p class="hero-subtitle">
+        Peer-reviewed journal articles, preprints, and conference presentations on nucleic acid nanotechnology, single-molecule transcription tracking, and DNA origami dynamics.
+      </p>
+    </section>
 
-    <main>
-        <h2>Peer-Reviewed Literature</h2>
-        <div class="card" style="border-left: 3px solid var(--accent-helix); margin-bottom: 2rem;">
-            <h3>Dye-cycling DNA origami rotors for long-term tracking of transcription at base-pair resolution</h3>
-            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Wacker AL, Fantasia RJ, Tenner B, <strong>Liu B</strong>, Wu JD, Monell N, Kosuri P.</p>
-            <p><em>Cell Reports Methods (2026)</em> | DOI: 10.1016/j.crmeth.2026.101550</p>
-        </div>
+    <!-- 1. Peer-Reviewed Journal Articles -->
+    <section class="publication-group">
+      <h2 class="section-title">Peer-Reviewed Journal Articles</h2>
+      <div class="card-grid">
 
-        <h2>Preprints</h2>
-        <div class="card" style="border-left: 3px solid var(--accent-neural); margin-bottom: 2rem;">
-            <h3>NanoNERF: A nanoscale NERF blaster replica made of DNA</h3>
-            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Takiguchi LP, Rober MB, Olvera JG, Wacker AL, Fantasia RJ, <strong>Liu B</strong>, Shipley W, Tao A, Kosuri P.</p>
-            <p><em>bioRxiv (2023)</em> | DOI: 10.1101/2023.10.02.560388</p>
-        </div>
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-journal">Cell Reports Methods</span>
+            <span class="meta-date">2026</span>
+          </div>
+          <h3 class="card-title">Dye-cycling DNA origami rotors for long-term tracking of transcription at base-pair resolution</h3>
+          <p class="authors-list">
+            Wacker AL, Fantasia RJ, Tenner B, <strong>Liu B</strong>, Wu JD, Monell N, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            <em>Cell Reports Methods</em> (2026); 6: 101550.
+          </p>
+          <div class="pub-actions">
+            <a href="[suspicious link removed]" target="_blank" rel="noopener" class="btn-doi">DOI: 10.1016/j.crmeth.2026.101550 ↗</a>
+          </div>
+        </article>
 
-        <h2>Symposium Presentations</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Topic / Platform</th>
-                    <th>Conference</th>
-                    <th>Timeline</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Base-pair registration of ORBIT traces</strong></td>
-                    <td>Salk Science at the Seaside Symposium</td>
-                    <td>Oct 2026</td>
-                </tr>
-                <tr>
-                    <td><strong>NEON: Rotor tracking for scalable sequence discrimination</strong></td>
-                    <td>Salk Science at the Seaside Symposium</td>
-                    <td>Oct 2026</td>
-                </tr>
-                <tr>
-                    <td><strong>Pause-site registration aligns ORBIT single-molecule trajectories</strong></td>
-                    <td>Biophysical Society 70th Annual Meeting</td>
-                    <td>Feb 2026</td>
-                </tr>
-                <tr>
-                    <td><strong>Making DNA bending visible: A new tool to study Cas9</strong></td>
-                    <td>Salk Science at the Seaside Symposium</td>
-                    <td>Oct 2025</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
+      </div>
+    </section>
+
+    <!-- 2. Preprints -->
+    <section class="publication-group">
+      <h2 class="section-title">Preprints</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-preprint">bioRxiv</span>
+            <span class="meta-date">2023</span>
+          </div>
+          <h3 class="card-title">NanoNERF: A nanoscale NERF blaster replica made of DNA</h3>
+          <p class="authors-list">
+            Takiguchi LP, Rober MB, Olvera JG, Wacker AL, Fantasia RJ, <strong>Liu B</strong>, Shipley W, Tao A, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            <em>bioRxiv</em> [Preprint] (2023).
+          </p>
+          <div class="pub-actions">
+            <a href="[suspicious link removed]" target="_blank" rel="noopener" class="btn-doi">DOI: 10.1101/2023.10.02.560388 ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3. Conference Talks & Posters -->
+    <section class="publication-group">
+      <h2 class="section-title">Conference Talks & Poster Presentations</h2>
+      <div class="card-grid">
+
+        <!-- Poster 1 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-poster">Poster</span>
+            <span class="meta-date">Oct 2026</span>
+          </div>
+          <h3 class="card-title">Base-pair registration of ORBIT traces using U-tract motifs</h3>
+          <p class="authors-list">
+            McCool J, <strong>Liu B</strong>, Monell N, Wacker AL, Fantasia RJ, Coles AM, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Salk Science at the Seaside Symposium, La Jolla, CA.
+          </p>
+        </article>
+
+        <!-- Poster 2 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-poster">Poster</span>
+            <span class="meta-date">Oct 2026</span>
+          </div>
+          <h3 class="card-title">NEON: Rotor tracking for scalable sequence discrimination via kinetic signatures</h3>
+          <p class="authors-list">
+            Monell N, <strong>Liu B</strong>, McCool J, Fantasia RJ, Wacker AL, Castiglione J, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Salk Science at the Seaside Symposium, La Jolla, CA.
+          </p>
+        </article>
+
+        <!-- Poster 3 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-poster">Poster</span>
+            <span class="meta-date">Feb 2026</span>
+          </div>
+          <h3 class="card-title">Pause-site registration aligns ORBIT single-molecule trajectories for sequence-resolved transcription</h3>
+          <p class="authors-list">
+            Fantasia RJ, <strong>Liu B</strong>, Castiglione J, Monell N, Wacker AL, Tenner B, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Biophysical Society 70th Annual Meeting, San Francisco, CA.
+          </p>
+        </article>
+
+        <!-- Poster 4 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-poster">Poster</span>
+            <span class="meta-date">Oct 2025</span>
+          </div>
+          <h3 class="card-title">Making DNA bending visible: A new tool to study Cas9</h3>
+          <p class="authors-list">
+            <strong>Liu B</strong>, Takiguchi LP, Tenner B, Fantasia RJ, Wacker AL, Shen K, Monell N, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Salk Science at the Seaside Symposium, La Jolla, CA.
+          </p>
+        </article>
+
+        <!-- Poster 5 -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-poster">Poster</span>
+            <span class="meta-date">Feb 2025</span>
+          </div>
+          <h3 class="card-title">DNAntenna: A modular DNA origami platform for dynamic tracking of DNA bending</h3>
+          <p class="authors-list">
+            <strong>Liu B</strong>, Takiguchi LP, Tenner B, Fantasia RJ, Wacker AL, Shen K, Monell N, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Biophysical Society 69th Annual Meeting, Los Angeles, CA.
+          </p>
+        </article>
+
+        <!-- Platform Talk -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-talk">Platform Talk</span>
+            <span class="meta-date">Feb 2024</span>
+          </div>
+          <h3 class="card-title">DNAntenna: A modular DNA origami platform for tracking DNA bending</h3>
+          <p class="authors-list">
+            Takiguchi LP, Fantasia RJ, Wacker AL, <strong>Liu B</strong>, Shen K, Kosuri P.
+          </p>
+          <p class="pub-journal-details">
+            Biophysical Society 68th Annual Meeting, Philadelphia, PA (Abstract published in <em>Biophys J</em>. 2024;123(3 Suppl 1):173a).
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
