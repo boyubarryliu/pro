@@ -1,45 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technical Stack | Boyu Liu</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills & Expertise — Boyu (Barry) Liu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Technical Matrix</h1>
-        <p>Laboratory instruments, wet-lab validation assays, and digital modeling environments.</p>
-    </header>
-
-    <nav style="margin: 1.5rem 0;">
-        <a href="index.html" style="margin-right: 15px;">[ Home ]</a>
-        <a href="research.html" style="margin-right: 15px;">[ Research ]</a>
-        <a href="publications.html" style="margin-right: 15px;">[ Publications ]</a>
-        <a href="skills.html" style="font-weight: bold;">[ Skills & Stack ]</a>
-    </nav>
-
-    <main>
-        <h2>Nanotechnology & Wet Lab Instrumentation</h2>
-        <ul>
-            <li><strong>Nucleic Acid Nanoengineering:</strong> Structural DNA origami architecture design, thermal folding pathways, multi-fragment enzymatic ligations, CRISPR-Cas9 in vitro targeting assays.</li>
-            <li><strong>Enzyme Kinematics:</strong> In-depth handling of E. coli RNA Polymerase transcription configurations, SpyCas9 execution, T4 Ligase dynamics, and the multi-component GODCAT oxygen scavenging network.</li>
-            <li><strong>High-Resolution Microscopy:</strong> Custom assembly of functional fluidic channel array chips, wide-field epifluorescent validation, and single-molecule Total Internal Reflection Fluorescence (TIRF) imaging environments.</li>
+  <!-- Fixed Top Navigation Bar -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="site-title">Boyu (Barry) Liu</a>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">About</a></li>
+          <li><a href="research.html" class="nav-link">Research</a></li>
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="skills.html" class="nav-link active">Skills</a></li>
+          <li><a href="mailto:barryliuapp@gmail.com" class="nav-link nav-cta">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
 
-        <h2>Digital & Simulation Environments</h2>
-        <p>For processing and predicting macromolecular tracking paths, I utilize:</p>
-        <pre><code>// Computational Biology Tools
-- Scadnano & OxDNA (Nanostructure spatial modeling and trajectory simulation)
-- Oxview (Structural 3D rendering)
-- Python & HTML (Data formatting, scripting, custom automation protocols)
-- AI-assisted dataset evaluation & custom structural parsing
-- Fiji / ImageJ (TIRF high-speed video track quantification)</code></pre>
+  <!-- Main Container -->
+  <main class="main-container">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <h1 class="hero-name">Technical Expertise</h1>
+      <p class="hero-subtitle">
+        A comprehensive breakdown of experimental molecular biology methodologies, single-molecule biophysics, molecular modeling software, and computational skill sets.
+      </p>
+    </section>
 
-        <h2>Contact Nodes</h2>
-        <p>For collaboration vectors, feel free to reach out via: <code>barryliuapp@gmail.com</code></p>
-    </main>
+    <!-- 1. Laboratory & Experimental Skills -->
+    <section class="skills-group">
+      <h2 class="section-title">Laboratory & Experimental Capabilities</h2>
+      <div class="card-grid">
+
+        <!-- Card: Nucleic Acid Nanotechnology -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-lab">Wet-Lab</span>
+            <span class="meta-date">Core Methodologies</span>
+          </div>
+          <h3 class="card-title">Nucleic Acid Nanotechnology</h3>
+          <p class="card-description">
+            Design, assembly, and functional analysis of structural and dynamic DNA architectures.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">DNA Origami Design & Folding</span>
+            <span class="tag">CRISPR-Cas9 <em>In Vitro</em> Cleavage</span>
+            <span class="tag"><em>In Vitro</em> sgRNA Synthesis</span>
+            <span class="tag">PCR Design & Optimization</span>
+            <span class="tag">Overhang Ligation Assays</span>
+          </div>
+        </article>
+
+        <!-- Card: Enzymes & Proteins -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-lab">Proteins</span>
+            <span class="meta-date">Biochemical Assays</span>
+          </div>
+          <h3 class="card-title">Proteins, Enzymes & Labeling</h3>
+          <p class="card-description">
+            Expression, purification optimization, and site-specific enzymatic conjugation.
+          </p>
+          <div class="skill-tags">
+            <span class="tag"><em>E. coli</em> RNA Polymerase</span>
+            <span class="tag">SpyCas9 & Spy-dCas9</span>
+            <span class="tag">T4 DNA Ligase</span>
+            <span class="tag">EcoRI & XhoI Restriction</span>
+            <span class="tag">Biotin-Streptavidin</span>
+            <span class="tag">Digoxigenin / Anti-Dig</span>
+            <span class="tag">SNAP-Tag & NHS-Ester</span>
+            <span class="tag">GODCAT Oxygen Scavenging</span>
+          </div>
+        </article>
+
+        <!-- Card: Microscopy & General Techniques -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-lab">Instrumentation</span>
+            <span class="meta-date">Imaging & Purification</span>
+          </div>
+          <h3 class="card-title">Microscopy & Fluidics</h3>
+          <p class="card-description">
+            Single-molecule visualization using custom optics and microfluidic channels.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">Single-Molecule TIRF Microscopy</span>
+            <span class="tag">Wide-field Epifluorescence</span>
+            <span class="tag">Custom Tubing-Based Fluidics</span>
+            <span class="tag">Streptavidin & Poly-T Magnetic Beads</span>
+            <span class="tag">PAGE & Agarose Gel Electrophoresis</span>
+            <span class="tag">Bacterial & Yeast Culturing</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 2. Computational & Digital Skills -->
+    <section class="skills-group">
+      <h2 class="section-title">Computational & Modeling Tools</h2>
+      <div class="card-grid">
+
+        <!-- Card: DNA Origami & Molecular Modeling -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-comp">Computational</span>
+            <span class="meta-date">Biophysics & CAD</span>
+          </div>
+          <h3 class="card-title">Nanotechnology Modeling & Simulation</h3>
+          <p class="card-description">
+            Computer-aided design of nanoscale constructs and coarse-grained molecular dynamics simulations.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">Scadnano</span>
+            <span class="tag">OxDNA Simulations</span>
+            <span class="tag">OxView Visualization</span>
+            <span class="tag">UCSF ChimeraX</span>
+            <span class="tag">SnapGene</span>
+          </div>
+        </article>
+
+        <!-- Card: Programming & Data Analysis -->
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-comp">Software</span>
+            <span class="meta-date">Data & Web</span>
+          </div>
+          <h3 class="card-title">Programming & Data Analysis</h3>
+          <p class="card-description">
+            Quantitative image processing, statistical workflows, and modern web development.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">HTML5 & CSS3</span>
+            <span class="tag">Fiji / ImageJ</span>
+            <span class="tag">AI-Assisted Scientific Analysis</span>
+            <span class="tag">Git & GitHub</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3. Languages & Specialized Expertise -->
+    <section class="skills-group">
+      <h2 class="section-title">Languages & Additional Skills</h2>
+      <div class="card-grid">
+
+        <article class="card">
+          <div class="card-header-meta">
+            <span class="badge badge-general">General</span>
+            <span class="meta-date">Communication & Hands-On</span>
+          </div>
+          <h3 class="card-title">Languages & Technical Proficiencies</h3>
+          <p class="card-description">
+            Global communication abilities paired with practical mechanical engineering principles.
+          </p>
+          <div class="skill-tags">
+            <span class="tag">Bilingual: English & Mandarin (Fluent / Biliterate)</span>
+            <span class="tag">Bicycle Mechanics & Hardware Precision</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>
