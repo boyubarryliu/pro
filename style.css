@@ -249,3 +249,69 @@ body {
   padding: 0.2rem 0.6rem;
   border-radius: var(--radius-full);
 }
+
+/* Publication Specific Styles */
+.authors-list {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.authors-list strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.pub-journal-details {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+}
+
+.pub-actions {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+.btn-doi {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.btn-doi:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-color: var(--accent-color);
+}
+
+/* Publication Badges */
+.badge-journal {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.badge-preprint {
+  background-color: #fef2f2;
+  color: #991b1b;
+}
+
+.badge-poster {
+  background-color: #f0fdf4;
+  color: #166534;
+}
+
+.badge-talk {
+  background-color: #eff6ff;
+  color: #1e40af;
+}
+
