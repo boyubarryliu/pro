@@ -315,3 +315,25 @@ body {
   color: #1e40af;
 }
 
+/* Skill Specific Badges & Tags */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.badge-lab {
+  background-color: #f0fdf4;
+  color: #166534;
+}
+
+.badge-comp {
+  background-color: #eff6ff;
+  color: #1e40af;
+}
+
+.badge-general {
+  background-color: #faf5ff;
+  color: #6b21a8;
+}
