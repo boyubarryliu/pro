@@ -89,17 +89,37 @@ body {
   list-style: none;
 }
 
+/* Base Link Style */
 .nav-link {
+  position: relative;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-secondary);
-  text-decoration: none;
-  transition: color 0.15s ease;
+  padding-bottom: 0.3rem;
+  transition: color 0.2s ease;
 }
 
+/* Underline setup for both active & hover states */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%; /* Hidden by default */
+  height: 3px;
+  background-color: #195682;
+  border-radius: 2px;
+  transition: width 0.25s ease; /* Smooth expansion animation */
+}
+
+/* Color & Underline when Active OR Hovered */
 .nav-link:hover,
 .nav-link.active {
-  color: var(--text-primary);
+  color: #195682 !important;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%; /* Expands underline to full width */
 }
 
 .nav-cta {
