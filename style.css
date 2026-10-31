@@ -90,18 +90,26 @@ body {
   list-style: none;
 }
 
-/* Navigation Link Base Style */
-.nav-link {
-  font-size: 1.1rem;
+/* Navigation Links - Clear Underlines & Unify Colors Across All States */
+.nav-menu a,
+.nav-link,
+.nav-link:link,
+.nav-link:visited {
+  color: #333333;                   /* Default color for all links (visited or unvisited) */
+  text-decoration: none !important; /* Removes all browser default underlines */
+  font-size: 1rem;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
-/* Color Highlight for Hover and Active Page */
+/* Active Page & Hover State Highlight */
+.nav-menu a:hover,
 .nav-link:hover,
-.nav-link.active {
-  color: #2C84B4;
+.nav-link.active,
+.nav-link.active:visited {
+  color: #2C84B4
   font-weight: 600;
+  text-decoration: none !important;
 }
 
 .nav-cta {
