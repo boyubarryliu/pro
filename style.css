@@ -77,7 +77,7 @@ body {
 }
 
 .header-logo {
-  height: 72px; /* Increased from 28px for better standalone visibility */
+  height: 50px; /* Increased from 28px for better standalone visibility */
   width: auto;
   display: block;
   object-fit: contain;
