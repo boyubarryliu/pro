@@ -298,6 +298,35 @@ body {
   border-color: var(--accent-color);
 }
 
+/* Publication Figure & Image Constraints */
+.pub-figure-container {
+  margin-top: 1.5rem; /* Generous spacing below the DOI button/line */
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+  box-sizing: border-box;
+}
+
+.pub-figure {
+  width: 100%;
+  max-width: 100%; /* Strictly keeps image bounded inside the card */
+  height: auto;    /* Preserves original aspect ratio */
+  max-height: 320px; /* Caps height so tall plots don't stretch the card */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Safety Fallback: Constrain ANY image placed inside a card */
+.card img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
 /* Publication Badges */
 .badge-journal {
   background-color: #f1f5f9;
