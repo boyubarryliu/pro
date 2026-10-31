@@ -70,12 +70,21 @@ body {
   align-items: center;
 }
 
+.header-logo {
+  height: 36px; /* Increased from 28px for better standalone visibility */
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .site-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--text-primary);
   text-decoration: none;
-  letter-spacing: -0.01em;
 }
 
 .nav-menu {
