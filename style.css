@@ -386,3 +386,34 @@ body {
   background-color: #faf5ff;
   color: #6b21a8;
 }
+
+/* Mobile Responsiveness: Fold Navigation Menu into 2 Lines */
+@media (max-width: 768px) {
+  /* Allow header container to expand vertically */
+  .navbar,
+  .nav-container,
+  header {
+    height: auto !important;
+    flex-wrap: wrap;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  /* Force menu items to wrap into multiple lines */
+  .nav-menu {
+    flex-wrap: wrap !important;
+    justify-content: center; /* Centers links on the 2nd line */
+    gap: 0.5rem 0.8rem;      /* Spacing between lines and links */
+    width: 100%;             /* Takes full width below logo if needed */
+  }
+
+  /* Slightly scale down link sizes so they fit comfortably */
+  .nav-link {
+    font-size: 1rem !important;
+  }
+
+  .nav-cta {
+    font-size: 0.85rem !important;
+    padding: 0.35rem 0.85rem !important;
+  }
+}
