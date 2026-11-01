@@ -97,7 +97,7 @@ body {
 .nav-link:visited {
   color: #333333 !important;
   text-decoration: none !important;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   font-weight: 500;
   transition: color 0.2s ease;
 }
@@ -111,7 +111,7 @@ body {
 .nav-link.active,
 .nav-link.active:link,
 .nav-link.active:visited {
-  color: #195682 !important;
+  color: #2C84B4 !important;
   font-weight: 600 !important;
   text-decoration: none !important;
 }
