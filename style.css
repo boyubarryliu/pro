@@ -116,18 +116,25 @@ body {
   text-decoration: none !important;
 }
 
-.nav-cta {
+/* Download CV Button (.nav-cta) - Lock White Text Across All Link/Hover/Visited States */
+.nav-cta,
+.nav-cta:link,
+.nav-cta:visited,
+.nav-cta:hover,
+.nav-cta:active {
   background-color: var(--accent-color);
   color: #ffffff !important;
   padding: 0.45rem 1rem;
   border-radius: var(--radius-full);
   font-size: 0.85rem;
   font-weight: 500;
+  text-decoration: none !important;
   transition: background-color 0.15s ease;
 }
 
 .nav-cta:hover {
   background-color: var(--accent-hover);
+  color: #ffffff !important;
 }
 
 /* ==========================================================================
