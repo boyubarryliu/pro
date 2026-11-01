@@ -90,25 +90,29 @@ body {
   list-style: none;
 }
 
-/* Navigation Links - Clear Underlines & Unify Colors Across All States */
+/* Navigation Links - Unify All Visited/Unvisited Link Colors & Remove Underlines */
 .nav-menu a,
 .nav-link,
 .nav-link:link,
 .nav-link:visited {
-  color: #333333;                   /* Default color for all links (visited or unvisited) */
-  text-decoration: none !important; /* Removes all browser default underlines */
-  font-size: 1rem;
+  color: #333333 !important;
+  text-decoration: none !important;
+  font-size: 1.15rem;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
-/* Active Page & Hover State Highlight */
+/* Current Page Active Highlight & Hover State (#195682) */
 .nav-menu a:hover,
 .nav-link:hover,
+.nav-menu a.active,
+.nav-menu a.active:link,
+.nav-menu a.active:visited,
 .nav-link.active,
+.nav-link.active:link,
 .nav-link.active:visited {
-  color: #2C84B4
-  font-weight: 600;
+  color: #195682 !important;
+  font-weight: 600 !important;
   text-decoration: none !important;
 }
 
