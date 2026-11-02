@@ -350,12 +350,12 @@ body {
 }
 
 /* Publication Badges */
-.badge-journal {
+.badge-preprint {
   background-color: #f1f5f9;
   color: #0f172a;
 }
 
-.badge-preprint {
+.badge-journal {
   background-color: #fef2f2;
   color: #991b1b;
 }
