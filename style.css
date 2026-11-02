@@ -143,14 +143,28 @@ body {
   color: #ffffff !important;
 }
 
-/* Top Menu Bar Background & Bottom Border Line */
+/* Top Menu Bar Background */
+
+/* 1. Apply wallpaper and bottom border ONLY to the main outer header */
 header,
 .navbar {
-  background-image: url('images/avatar/light_wallpaper_plain.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-bottom: 1px solid #004225; /* 1px thin dividing line */
+  background-image: url('images/avatar/light_wallpaper_plain.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* 2. Remove white backgrounds and extra borders from inner menu elements */
+header nav,
+.nav-container,
+.nav-menu,
+.nav-menu ul,
+.nav-menu li {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 /* ==========================================================================
@@ -434,24 +448,3 @@ header,
   }
 }
 
-/* =========================================================
-   TOP MENU BAR: WALLPAPER & BOTTOM BORDER LINE
-   ========================================================= */
-
-/* 1. Apply wallpaper & bottom line to the header bar */
-header,
-nav,
-.navbar {
-  background-image: url('images/avatar/light_wallpaper_plain.png') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  border-bottom: 1px solid #004225 !important;
-}
-
-/* 2. Make inner menu containers transparent so wallpaper shows through */
-.nav-container,
-.nav-menu {
-  background: transparent !important;
-  background-color: transparent !important;
-}
