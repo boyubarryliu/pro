@@ -143,6 +143,16 @@ body {
   color: #ffffff !important;
 }
 
+/* Top Menu Bar Background & Bottom Border Line */
+header,
+.navbar {
+  background-image: url('images/avatar/light_wallpaper_plain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #004225; /* 1px thin dividing line */
+}
+
 /* ==========================================================================
    2. Page Container & Hero Layout
    ========================================================================== */
