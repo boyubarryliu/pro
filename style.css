@@ -433,3 +433,25 @@ header,
     padding: 0.35rem 0.85rem !important;
   }
 }
+
+/* =========================================================
+   TOP MENU BAR: WALLPAPER & BOTTOM BORDER LINE
+   ========================================================= */
+
+/* 1. Apply wallpaper & bottom line to the header bar */
+header,
+nav,
+.navbar {
+  background-image: url('images/avatar/light_wallpaper_plain.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-bottom: 1px solid #004225 !important;
+}
+
+/* 2. Make inner menu containers transparent so wallpaper shows through */
+.nav-container,
+.nav-menu {
+  background: transparent !important;
+  background-color: transparent !important;
+}
