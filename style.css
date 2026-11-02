@@ -36,10 +36,16 @@
 body {
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
-  color: var(--text-primary);
+  <!-- color: var(--text-primary); -->
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   padding-top: var(--header-height);
+  background-image: url('images/avatar/light_wallpaper_dna_bikechain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #2b2b2b; /* Dark neutral text for high contrast on light background */
 }
 
 /* ==========================================================================
