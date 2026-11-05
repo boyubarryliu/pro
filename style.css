@@ -182,6 +182,16 @@ header nav,
   margin-bottom: 3rem;
 }
 
+/* Hero Image / Avatar Above Name */
+.hero-avatar {
+  display: block;
+  margin: 0 auto 1.25rem auto; /* Centers the image and adds space below it */
+  max-width: 140px;             /* Adjust image width as needed */
+  height: auto;
+  border-radius: 50%;          /* Optional: Makes a square image circular. Remove if using a logo PNG */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Optional subtle shadow */
+}
+
 .hero-name {
   font-size: 2.5rem;
   font-weight: 700;
