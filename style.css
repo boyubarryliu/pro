@@ -185,7 +185,7 @@ header nav,
 /* Hero Image aligned naturally with hero-name and hero-subtitle */
 .hero-avatar {
   display: block;
-  max-width: 50%;     /* Keeps image contained inside hero-section without forcing a fixed width */
+  max-width: 66%;     /* Keeps image contained inside hero-section without forcing a fixed width */
   height: auto;        /* Maintains native aspect ratio */
   margin-bottom: 1rem; /* Spacing between the image and hero-name */
 }
