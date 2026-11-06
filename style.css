@@ -245,6 +245,11 @@ header nav,
 .card-description {
   color: var(--text-secondary);
   font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-description:last-child {
+  margin-bottom: 0;
 }
 
 /* Responsive Styles */
