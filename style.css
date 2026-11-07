@@ -462,3 +462,48 @@ header nav,
   }
 }
 
+/* ==========================================================================
+   3. Footer & Social Links
+   ========================================================================== */
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 2.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.social-links a {
+  color: var(--text-secondary);
+  display: inline-flex;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--text-primary);
+}
+
+.social-links svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+/* Social row under the hero photo (homepage) */
+.hero-social {
+  justify-content: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero-social svg {
+  width: 20px;
+  height: 20px;
+}
