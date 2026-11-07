@@ -481,13 +481,13 @@ header nav,
 }
 
 .social-links a {
-  color: var(--text-secondary);
+  color: #005630;
   display: inline-flex;
   transition: color 0.2s ease;
 }
 
 .social-links a:hover {
-  color: var(--text-primary);
+  color: #004225;
 }
 
 .social-links svg {
